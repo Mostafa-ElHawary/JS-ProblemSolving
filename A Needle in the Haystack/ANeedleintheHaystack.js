@@ -1,5 +1,5 @@
-let ar:any = ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] 
-function Func(n:any)
+let ar = ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] 
+function Func(n)
 {
 
     let count = 0
