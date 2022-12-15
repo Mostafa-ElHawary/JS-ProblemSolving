@@ -9,17 +9,17 @@
 let Func = (array) => {
   let x = 0;
 
-//   if (array.length === 0) {
-//     return 0;
-//   } else {
-//     for (let i = 0; i < array.length; i++) {
-//       x += array[i];
-//     }
-//   }
-//   return x / array.length;
+  if (array.length === 0) {
+    return 0;
+  } else {
+    for (let i = 0; i < array.length; i++) {
+      x += array[i];
+    }
+  }
+  return x / array.length;
 
 // another solution 
-  return  array.length === 0 ? 0 : array.reduce((x,y)=> x+y,0) / array.length
+  // return  array.length === 0 ? 0 : array.reduce((x,y)=> x+y,0) / array.length
 
 };
 console.log(Func([1, 2, 3, 4]));

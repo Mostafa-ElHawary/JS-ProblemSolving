@@ -1,35 +1,24 @@
-// function Func(n)
-// {
+// DESCRIPTION:
+// Can you find the needle in the haystack?
 
-//     // let count = 0
+// Write a function findNeedle() that takes an array full of junk but containing one "needle"
 
-//     n.forEach((e)=> e === 'needle' ? console.log(ar.indexOf(e)): 'not founs')
+// After your function finds the needle it should return a message (as a string) that says:
 
-// }
-// console.log(Func(ar))
+// "found the needle at position " plus the index it found the needle, so:
 
-// ar.forEach((e)=> e === 'needle' ? console.log(ar.indexOf(e)): 'not founs')
+// Example(Input --> Output)
 
-// function Func(n){
+// ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
 
-//     n.forEach((e)=> {
-//         if(e ===  'needle' )
-//         {
-//             return `found the ${e} at position ${n.indexOf(e)}`
-//         }
-//     })
-
-// }
-// console.log(Func(ar));
-
-let ar = ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"];
-
-
-let Func = (n) => {
-  ar.forEach((e) => {
+let findNeedle = (haystack) => {
+  haystack.forEach((e) => {
     if (e === "needle") {
-      console.log(`found the ${e} at position ${n.indexOf(e)}`);
+          return res =  `found the ${e} at position ${haystack.indexOf(e)}`
     }
   });
+  return res
+
 };
-console.log(Func(ar));
+console.log(findNeedle(["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]));
+///////////////////////
