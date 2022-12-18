@@ -18,4 +18,3 @@ function Func(name)
 console.log(Func('Redrego'));
 
 // console.log('Redrego'.charAt('R'));
-

@@ -10,4 +10,4 @@
 
 let Func = (salary, bonus) => bonus ? `£${salary * 10}` : `£${salary}`
 
-console.log(Func(10,false));
+console.log(Func(10,true));
