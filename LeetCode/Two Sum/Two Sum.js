@@ -30,7 +30,7 @@
 
 // }
 // console.log(Func([5,1,5,2]));
-
+////////////////////////////////
 const array1 = [1, 2, 3, 4, 5];
 
 function Func(nums, target) {
@@ -43,7 +43,7 @@ function Func(nums, target) {
   return newar
 }
 console.log(Func(array1, 6));
-
+////////////////////////////////////
 // array1.map((e,ind)=> e + array1[ind+1] == 5 ? console.log(`${e} and ${array1[ind+1] }`): console.log('error'))
 
 // 0 + 1 + 2 + 3 + 4
