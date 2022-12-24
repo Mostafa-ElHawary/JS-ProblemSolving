@@ -24,3 +24,4 @@ for(let i = 0 ; i < ar.length ; i++)
 return Math.floor(num / ar.length)
 }
 console.log(Func([1,2,3,4,5]));
+
