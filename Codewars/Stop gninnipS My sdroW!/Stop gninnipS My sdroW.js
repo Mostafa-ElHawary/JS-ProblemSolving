@@ -2,14 +2,39 @@
 
 // Examples:
 
-// spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" 
-// spinWords( "This is a test") => returns "This is a test" 
+// spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw"
+// spinWords( "This is a test") => returns "This is a test"
 // spinWords( "This is another test" )=> returns "This is rehtona test"
 
-let x = 'warriors'
-console.log(x.length); 
-console.log(x.slice(0,1));
-console.log(x.slice(1,x.length-1));
-console.log(x.slice(x.length-1,x.length));
+// function spinWords(string) {
+//   let stringSplit = string.split(" ");
 
+//   console.log(stringSplit);
 
+//   for (let i = 0; i < stringSplit.lenght; i++) {
+
+//       if(stringSplit[i] <= 3) {
+//         console.log(stringSplit[i]);
+//     //   stringSplit[i] = stringSplit[i].split("").reverse().join("");
+//     }
+
+//   }
+//   return stringSplit.join(" ");
+// }
+
+// console.log(spinWords("Hey fellow warriors"));
+
+// console.log("Hey fellow warriors".split(' '));
+
+function spinWords(string)
+{
+    let z = string.split(' ')
+    for(let i = 0 ; i < z.length ; i++)
+        {
+            if(z[i].length >= 5){
+                z[i] = z[i].split('').reverse().join('')
+            }
+        }
+        return z.join(' ')
+}
+console.log(spinWords("SeriouslY this is the last one"));
