@@ -12,3 +12,4 @@ function createArray(number){
   }
 
 console.log( createArray(5));
+
