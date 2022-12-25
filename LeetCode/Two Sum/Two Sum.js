@@ -20,39 +20,22 @@
 
 //solution
 
-//1//
-// loop on array of
 
-// function Func(ar)
-// {
+let twoSum = function(nums , target)
+{
+  for (let i = 0 ; i <nums.length ; i++)
+  {
+    for(let j = i+1 ; j < nums.length ; j++ )
+    {
+      if( nums[i] + nums[j] === target )
+      {
+        return [i,j]
 
-//     ar.reduce((e,ind)=> e+ind ,0)
-
-// }
-// console.log(Func([5,1,5,2]));
-
-const array1 = [1, 2, 3, 4, 5];
-
-function Func(nums, target) {
-    let newar = []
-  nums.map((e, ind) =>
-    e + array1[ind + 1] == target 
-      ?  newar.push(e,array1[ind + 1]) 
-      : console.log()
-  );
-  return newar
+      }
+    }
+  }
 }
-console.log(Func(array1, 6));
+console.log(twoSum([2,7,11,15],9));
 
-// array1.map((e,ind)=> e + array1[ind+1] == 5 ? console.log(`${e} and ${array1[ind+1] }`): console.log('error'))
 
-// 0 + 1 + 2 + 3 + 4
-// const initialValue = 0;
-// const sumWithInitial = array1.reduce(
-//   (accumulator, currentValue) => accumulator + currentValue == 10 ?
-//    `${accumulator} and ${currentValue}`:console.log('error'),
-//   initialValue
-// );
 
-// console.log(sumWithInitial);
-// // expected output: 10
