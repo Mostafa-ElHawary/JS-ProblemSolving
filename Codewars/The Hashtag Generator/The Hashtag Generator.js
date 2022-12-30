@@ -15,6 +15,7 @@
 
 //check length on str if == zero or empty 
 
+
 function toTitleCase(word)
 {
     let letters = word.split('');
