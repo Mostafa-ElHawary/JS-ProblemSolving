@@ -12,5 +12,16 @@
 // time = 6.7---> litres = 3
 
 
-let Func = (n) => Math.floor(n * 0.5)
-console.log(Func(7));
+// let Func = (n) => Math.floor(n * 0.5)
+// console.log(Func(7));
+
+function calculateLitres(time) {
+    // Calculate the number of litres Nathan will drink
+    let litres = time * 0.5;
+    
+    // Round the result to the smallest value
+    litres = Math.floor(litres);
+    
+    // Return the result
+    return litres;
+  }
