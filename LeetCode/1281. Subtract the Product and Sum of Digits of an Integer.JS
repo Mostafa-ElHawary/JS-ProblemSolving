@@ -14,16 +14,16 @@
 // Sum of digits = 2 + 3 + 4 = 9
 // Result = 24 - 9 = 15
 
-var subtractProductAndSum = function(n) {
-    const str = n.toString();
-let product = 1;
-let sum = 0;
+var subtractProductAndSum = function (n) {
+  const str = n.toString();
+  let product = 1;
+  let sum = 0;
 
-for (let i = 0; i < str.length; i++) {
-  const digit = parseInt(str[i]);
-  product *= digit;
-  sum += digit;
-}
+  for (let i = 0; i < str.length; i++) {
+    const digit = parseInt(str[i]);
+    product *= digit;
+    sum += digit;
+  }
 
-return product - sum;
+  return product - sum;
 };
