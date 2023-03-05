@@ -10,8 +10,6 @@
 
 // You must write an algorithm that uses only constant extra space.
 
- 
-
 // Example 1:
 
 // Input: chars = ["a","a","b","b","c","c","c"]
@@ -19,23 +17,23 @@
 // Explanation: The groups are "aa", "bb", and "ccc". This compresses to "a2b2c3".
 
 function compress(chars) {
-  let result = '';
+  let result = "";
   let count = 1;
   let currChar = chars[0];
 
   for (let i = 1; i < chars.length; i++) {
-       // a           a
+
     if (chars[i] === currChar) {
-      count++; // 2
+      count++; 
     } else {
-          //    a           2
-      result += currChar + (count > 1 ? count.toString() : '');
+
+      result += currChar + (count > 1 ? count.toString() : "");
       currChar = chars[i];
       count = 1;
     }
   }
 
-  result += currChar + (count > 1 ? count.toString() : '');
+  result += currChar + (count > 1 ? count.toString() : "");
 
   for (let i = 0; i < result.length; i++) {
     chars[i] = result.charAt(i);
