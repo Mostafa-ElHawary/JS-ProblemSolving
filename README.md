@@ -11,7 +11,8 @@
 This folder contains solutions to the common questions in Leetcode. These questions are frequently asked in coding interviews, so solving them will help you prepare for technical interviews.
 
 
-# 75 Blind-leetcode-questions.:bulb:
-|  #  |      Title     |   Difficulty   | Topic  | Video  | Solutions   |                  
-|-----|----------------|--------------- |--------|--------|-------------|
-|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|Array&Hashing|[Video](https://www.youtube.com/watch?v=zfRMonn79wQ)|[Solution](../Solutions/217-contains-duplicate.py) |
+  <p align="center">
+      <a href="https://www.codewars.com/">
+          <img height=100 src="https://www.qualified.io/shared/images/codewars-black-large-24a9d355.png">
+      </a>
+  </p> 
