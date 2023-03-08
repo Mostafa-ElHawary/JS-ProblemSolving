@@ -12,7 +12,7 @@ This folder contains solutions to the common questions in Leetcode. These questi
 
 |  #  |      Title     |   Difficulty   | Topic  | Solutions   |                  
 |-----|----------------|--------------- |--------|-------------|
-|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|Array&Hashing|[Video](https://www.youtube.com/watch?v=zfRMonn79wQ)|[Solution](../Solutions/217-contains-duplicate.py) |
+|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|Array&Hashing|[Solution](../Solutions/217-contains-duplicate.py) |
 
 
 ------------------------------------------------------------------------------------------------------------
