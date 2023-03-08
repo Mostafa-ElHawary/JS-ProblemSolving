@@ -10,7 +10,6 @@
 This folder contains solutions to the common questions in Leetcode. These questions are frequently asked in coding interviews, so solving them will help you prepare for technical interviews.
 
 
-# leetcode-questions:
 |  #  |      Title     |   Difficulty   | Topic  | Solutions   |                  
 |-----|----------------|--------------- |--------|-------------|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|Array&Hashing|[Video](https://www.youtube.com/watch?v=zfRMonn79wQ)|[Solution](../Solutions/217-contains-duplicate.py) |
@@ -28,7 +27,6 @@ This folder contains solutions to the common questions in Leetcode. These questi
 This folder contains solutions to the common questions in Leetcode. These questions are frequently asked in coding interviews, so solving them will help you prepare for technical interviews.
 
 
-# codewars-questions:
 |  #  |      Title     | Solutions   |                  
 |-----|----------------|-------------|
 |8 kyu|[A Needle in the Haystack](https://www.codewars.com/kata/56676e8fabd2d1ff3000000c/solutions/javascript)|[Solution](https://github.com/Azzi-Mo/JS-ProblemSolving/tree/main/Codewars/A%20Needle%20in%20the%20Haystack) |
