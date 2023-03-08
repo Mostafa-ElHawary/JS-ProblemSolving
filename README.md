@@ -30,5 +30,5 @@ This folder contains solutions to the common questions in Leetcode. These questi
 |  #  |      Title     | Solutions   |                  
 |-----|----------------|-------------|
 |8 kyu|[A Needle in the Haystack](https://www.codewars.com/kata/56676e8fabd2d1ff3000000c/solutions/javascript)|[Solution](https://github.com/Azzi-Mo/JS-ProblemSolving/tree/main/Codewars/A%20Needle%20in%20the%20Haystack) |
-|8 kyu|[Are You Playing Banjo](https://www.codewars.com/kata/53af2b8861023f1d88000832)|[Solution](https://github.com/Azzi-Mo/JS-ProblemSolving/blob/main/Codewars/Are%20You%20Playing%20Banjo/Are%20You%20Playing%20Banjo.js) |
+|8 kyu|[Are You Playing Banjo](https://www.codewars.com/kata/53af2b8861023f1d88000832)|[Solution](https://github.com/Azzi-Mo/JS-ProblemSolving/blob/main/Codewars/Are%20You%20Playing%20Banjo/Are%20You%20Playing%20Banjo.js](https://github.com/Azzi-Mo/JS-ProblemSolving/blob/main/Codewars/A%20Needle%20in%20the%20Haystack/ANeedleintheHaystack.js)) |
 |8 kyu|[Basic Mathematical Operations](https://www.codewars.com/kata/57356c55867b9b7a60000bd7)|[Solution](https://github.com/Azzi-Mo/JS-ProblemSolving/blob/main/Codewars/Basic%20Mathematical%20Operations/BasicMathematicalOperations.JS) |
