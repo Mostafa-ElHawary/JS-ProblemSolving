@@ -29,6 +29,6 @@ This folder contains solutions to the common questions in Leetcode. These questi
 
 
 # codewars-questions:
-|  #  |      Title     |   Difficulty   | Topic  | Solutions   |                  
-|-----|----------------|--------------- |--------|-------------|
-|[A Needle in the Haystack](https://www.codewars.com/kata/56676e8fabd2d1ff3000000c/solutions/javascript)|[Solution](https://github.com/Azzi-Mo/JS-ProblemSolving/tree/main/Codewars/A%20Needle%20in%20the%20Haystack) |
+|  #  |      Title     | Solutions   |                  
+|-----|----------------|-------------|
+|8 kyu|[A Needle in the Haystack](https://www.codewars.com/kata/56676e8fabd2d1ff3000000c/solutions/javascript)|[Solution](https://github.com/Azzi-Mo/JS-ProblemSolving/tree/main/Codewars/A%20Needle%20in%20the%20Haystack) |
