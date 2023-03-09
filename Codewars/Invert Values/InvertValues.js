@@ -14,3 +14,10 @@ function Func(n) {
   return res;
 }
 console.log(Func([1,-2,3,-4,5]));
+
+// another solution 
+function invert(array) {
+  return array.map((e) => e == -e && -0 ? e : -e );
+}
+
+console.log(invert([-0,2,3,4,5]));
