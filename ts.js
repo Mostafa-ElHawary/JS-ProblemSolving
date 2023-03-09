@@ -50,8 +50,5 @@
 
 // Hint: Don't forget to check for bad values like null/undefined
 
-function invert(array) {
-  return array.map((e) => e == -e && -0 ? e : -e );
-}
-
-console.log(invert([-0,2,3,4,5]));
+let greet = (name) =>  name === 'Johnny' ?  'Hello, my love!' :  `Hello, ${name}!`
+console.log(greet('x'))
