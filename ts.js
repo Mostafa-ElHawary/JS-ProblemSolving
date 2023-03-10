@@ -40,15 +40,33 @@
 
 // For example,
 
-// [true,  true,  true,  false,
-//   true,  true,  true,  true ,
-//   true,  false, true,  false,
-//   true,  false, false, true ,
-//   true,  true,  true,  true ,
-//   false, false, true,  true]
-// The correct answer would be 17.
+// makeNegative(1);    // return -1
+// makeNegative(-5);   // return -5
+// makeNegative(0);    // return 0
+// makeNegative(0.12); // return -0.12Hint: Don't forget to check for bad values like null/undefined
 
-// Hint: Don't forget to check for bad values like null/undefined
+// function Func(n)
+// {
+//   return n > 0 && null ?  -n : n
 
-let greet = (name) =>  name === 'Johnny' ?  'Hello, my love!' :  `Hello, ${name}!`
-console.log(greet('x'))
+// }
+// console.log(Func(null));
+
+// Input: n = 234
+// Output: 15
+// Explanation:
+// Product of digits = 2 * 3 * 4 = 24
+// Sum of digits = 2 + 3 + 4 = 9
+// Result = 24 - 9 = 15
+
+const array1 = [1, 2, 3, 4];
+
+// 0 + 1 + 2 + 3 + 4
+const initialValue = 0;
+const sumWithInitial = array1.reduce(
+  (accumulator, currentValue) => accumulator * currentValue,
+  initialValue
+);
+
+console.log(sumWithInitial);
+// Expected output: 10
