@@ -23,7 +23,8 @@
 
 
 //another solution
-function Func(n) {
+
+// function Func(n) {
 
   return n.map((num) =>
     Number.isInteger(Math.sqrt(num))
@@ -33,3 +34,5 @@ function Func(n) {
 
 }
 console.log(Func([4, 3, 9, 7, 2, 1]));
+
+

@@ -59,14 +59,11 @@
 // Sum of digits = 2 + 3 + 4 = 9
 // Result = 24 - 9 = 15
 
-const array1 = [1, 2, 3, 4];
+function rentalCarCost(d) {
+  // if d >= 1 && < 3 => d * 40 $
+  // if d >= 3 && < 7 => (d * 40) -20 $
+  // if d >= 7 => (d * 40) -50 $
 
-// 0 + 1 + 2 + 3 + 4
-const initialValue = 0;
-const sumWithInitial = array1.reduce(
-  (accumulator, currentValue) => accumulator * currentValue,
-  initialValue
-);
-
-console.log(sumWithInitial);
-// Expected output: 10
+  return d >= 1 && d < 3 ? `${d * 40}` : d >= 3 && d < 7 ? `${(d * 40)- 20} ` : d >= 7 ? `${(d * 40) - 50} ` : "";
+}
+console.log(rentalCarCost(8));
