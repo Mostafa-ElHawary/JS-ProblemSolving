@@ -59,11 +59,26 @@
 // Sum of digits = 2 + 3 + 4 = 9
 // Result = 24 - 9 = 15
 
-function rentalCarCost(d) {
-  // if d >= 1 && < 3 => d * 40 $
-  // if d >= 3 && < 7 => (d * 40) -20 $
-  // if d >= 7 => (d * 40) -50 $
+//Moving Zeros To The End
 
-  return d >= 1 && d < 3 ? `${d * 40}` : d >= 3 && d < 7 ? `${(d * 40)- 20} ` : d >= 7 ? `${(d * 40) - 50} ` : "";
+
+            // put all element at a new array without zeros 
+            // put zeros count as a variable to know how many there we have
+            // make loop using while loop on var count zeros  
+            // put count of zeros to this a new array
+
+function rentalCarCost(arr) {
+  let newARR = [];
+  let ZeroCount = 0;
+
+  for (let i = 0; i < arr.length; i++) 
+    arr[i] !== 0 ? newARR.push(arr[i]):ZeroCount++; // = 4
+  while (ZeroCount > 0) { 
+    newARR.push(0);
+    ZeroCount--;
+  }
+
+  return newARR;
 }
-console.log(rentalCarCost(8));
+
+console.log(rentalCarCost([false, 1, 0, 1, 0, 0, 0, 3, "a"]));
