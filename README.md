@@ -67,3 +67,5 @@ This folder contains solutions to the common questions in Leetcode. These questi
 |6 kyu|[Simple Pig Latin](https://www.codewars.com/kata/5264d2b162488dc400000001)|[Solution](https://github.com/Azzi-Mo/JS-ProblemSolving/blob/main/Codewars/Stop%20gninnipS%20My%20sdroW!/Stop%20gninnipS%20My%20sdroW.js) |
 |6 kyu|[Stop gninnipS My sdroW!](https://www.codewars.com/kata/5264d2b162488dc400000001)|[Solution](https://github.com/Azzi-Mo/JS-ProblemSolving/blob/main/Codewars/Stop%20gninnipS%20My%20sdroW!/Stop%20gninnipS%20My%20sdroW.js) |
 |8 kyu|[Sum Of Positives](https://www.codewars.com/kata/5715eaedb436cf5606000381/train/javascript)|[Solution](https://github.com/Azzi-Mo/JS-ProblemSolving/blob/main/Codewars/Sum%20Of%20Positives/SumOfPositives.js) |
+|8 kyu|[Switch it Up!](https://www.codewars.com/kata/5808dcb8f0ed42ae34000031)|[Solution](https://github.com/Azzi-Mo/JS-ProblemSolving/blob/main/Codewars/Switch%20it%20Up!/Switch%20it%20Up!.js) |
+|8 kyu|[The Hashtag Generator](https://www.codewars.com/kata/52449b062fb80683ec000024)|[Solution](https://github.com/Azzi-Mo/JS-ProblemSolving/blob/main/Codewars/The%20Hashtag%20Generator/The%20Hashtag%20Generator.js) |
