@@ -61,24 +61,23 @@
 
 //Moving Zeros To The End
 
+// put all element at a new array without zeros
+// put zeros count as a variable to know how many there we have
+// make loop using while loop on var count zeros
+// put count of zeros to this a new array
 
-            // put all element at a new array without zeros 
-            // put zeros count as a variable to know how many there we have
-            // make loop using while loop on var count zeros  
-            // put count of zeros to this a new array
-
-function rentalCarCost(arr) {
-  let newARR = [];
-  let ZeroCount = 0;
-
-  for (let i = 0; i < arr.length; i++) 
-    arr[i] !== 0 ? newARR.push(arr[i]):ZeroCount++; // = 4
-  while (ZeroCount > 0) { 
-    newARR.push(0);
-    ZeroCount--;
-  }
-
-  return newARR;
+// 1 , 2 = > Publish
+// 2+ = > I smell a series!
+// 0 = > Fail!
+function well(x) {
+  let CountOfGood = 0;
+  x.forEach(e => {
+    e == "good" || e == "Good" ?  CountOfGood++ : ''
+  });
+  return CountOfGood >= 1 && CountOfGood <= 2
+    ? "Publish"
+    : CountOfGood > 2
+    ? "I smell a series!"
+    : "fail";
 }
-
-console.log(rentalCarCost([false, 1, 0, 1, 0, 0, 0, 3, "a"]));
+console.log(well(['good', 'bad', 'bad', 'bad', 'bad', 'good', 'bad', 'bad', 'good']));
