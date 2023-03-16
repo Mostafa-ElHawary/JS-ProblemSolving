@@ -69,15 +69,40 @@
 // 1 , 2 = > Publish
 // 2+ = > I smell a series!
 // 0 = > Fail!
-function well(x) {
-  let CountOfGood = 0;
-  x.forEach(e => {
-    e == "good" || e == "Good" ?  CountOfGood++ : ''
-  });
-  return CountOfGood >= 1 && CountOfGood <= 2
-    ? "Publish"
-    : CountOfGood > 2
-    ? "I smell a series!"
-    : "fail";
+
+function rgbToHex(r, g, b) {
+  r = Math.max(0, Math.min(255, r));
+  g = Math.max(0, Math.min(255, g));
+  b = Math.max(0, Math.min(255, b));
+  return(
+    Math.abs(r).toString(16) +
+    Math.abs(g).toString(16) +
+    Math.abs(b).toString(16)
+  ).toUpperCase();
 }
-console.log(well(['good', 'bad', 'bad', 'bad', 'bad', 'good', 'bad', 'bad', 'good']));
+
+// Test cases
+// console.log(rgbToHex(0, 0, 200)); // Expected output: FFFFFF
+// console.log(rgbToHex(255, 255, 300)); // Expected output: FFFFFF
+// console.log(rgbToHex(0, 0, 0)); // Expected output: 000000
+// console.log(rgbToHex(148, 0, 211)); // Expected output: 9400D3
+// function hexColour(c) {
+//   if (c < 256) {
+//     return Math.abs(c).toString(16);
+//   }
+//   return 0;
+// }
+
+// console.log(hexColour(255));
+let sum_pairs = (ar,num) => 
+{
+  for(let i = 0 ; i < ar.length ; i++){
+    let smallNum = 0
+    if(smallNum < ar[i] )
+    {
+      smallNum = ar[i]
+    }
+  }
+  return smallNum 
+}
+console.log(sum_pairs([11, 3, 7, 5],         10));
