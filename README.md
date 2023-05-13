@@ -13,6 +13,7 @@ This folder contains solutions to the common questions in Leetcode. These questi
 |  #  |      Title     |   Difficulty   | Topic  | Solutions   |                  
 |-----|----------------|--------------- |--------|-------------|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|Easy|Array&Hashing|[Solution](https://github.com/Azzi-Mo/Cpp-Problem-solving/blob/main/CPP_for_beginners/217Contains_Duplicate.cpp) |
+|2627|[Debounce](https://leetcode.com/problems/debounce/)|Easy|Array&Hashing|[Solution](https://github.com/Mostafa-ElHawary/JS-ProblemSolving/blob/main/LeetCode/2627.%20Debounce.js) |
 
 
 ------------------------------------------------------------------------------------------------------------
