@@ -74,7 +74,7 @@ function rgbToHex(r, g, b) {
   r = Math.max(0, Math.min(255, r));
   g = Math.max(0, Math.min(255, g));
   b = Math.max(0, Math.min(255, b));
-  return(
+  return (
     Math.abs(r).toString(16) +
     Math.abs(g).toString(16) +
     Math.abs(b).toString(16)
@@ -94,15 +94,23 @@ function rgbToHex(r, g, b) {
 // }
 
 // console.log(hexColour(255));
-let sum_pairs = (ar,num) => 
-{
-  for(let i = 0 ; i < ar.length ; i++){
-    let smallNum = 0
-    if(smallNum < ar[i] )
-    {
-      smallNum = ar[i]
-    }
-  }
-  return smallNum 
-}
-console.log(sum_pairs([11, 3, 7, 5],         10));
+
+let ar = [1, 2, [3, 4, [5]]];
+
+// console.log(Array.isArray(ar));
+// ar.forEach((e)=> {
+//   let count = ar.length
+//   return Array.isArray(e) ? Array.isArray(e) ? console.log(count+1): ' ' : ' '
+// })
+
+// for(let i = 0 ; i < ar.length ; i++)
+// {
+//   let count = 0 ;
+//    if( Array.isArray(ar[i]) ) count +=countElements(arr[i])
+//    else count++
+//    return count
+// }
+// function validatePIN (pin) {
+//return true or false
+//  return  pin.length == 4 || pin.length == 5 || pin.length == 6 ? true : false
+
